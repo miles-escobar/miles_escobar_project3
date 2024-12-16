@@ -1,14 +1,15 @@
-# Project 2: Words In Motion
+# Project 3: Social Justice Festival Guide
 
-## Project Overview
-Community can mean alot of things. For me, I view community as the people you love and love you back. My community is my family, my girlfriend, and her family. The written word I chose that represnts that is "Glue Song" by Beabadoobee. For context, I have been dating my girlfriend for a little over 5 years. So overtime my family and her family have gotten very close and we consider our two families as one at this point. One line that highlights my community is 
-"Im not wrong when I say I by the glue onto you" I want the audience to understand how close I am to my loved ones. And how this is really the only community that I have. 
+# Project Overview
+This project is a culmination of the skills developed throughout the semester of this introduction to web design course. I will be putting myself as an event organizer collaborating with a non profit organization of my choice, which will be the Filipino American Development Foundation. The goal is to highlihgt the causes and cultural significance of teh event by displaying events and activities people would want to do during the festival located in South Of Market, San Francisco (Decmeber 8-10th). I align myself with this cause because as a Filipino American, I have seen how history and systematic oppression has affect the Filipino American Community. I believe this website can be used in the future to actually promote events such as this. 
 
-## Technical Overview
-Translate written word that describes community, into an interactice website, using animations based off mouse hovering and scrolling. There will be a specific area for the user to place their mouse, and they will be scrolling through a single colomn of words containing the lyrics to "Glue Song". Each word that is scrolled by will be relocated to the center of the screen to build the silhouette of a bottle of glue. The coding languages utilized are html and css. 
+# Technical Overview
+The project will involve translation of writtten word that describe the Filipino community into an interactive website. The site will use animations based off mouse hovering and scrolling. Users will be met with intricatet images and assets made from key frames that create responsive websites. 
 
-## Acknowledgment
+# Acknowledgment
 Here is one source that should give an idea of what I am envisioning for this project.
 
 https://github.com/zhe13/WordPack
+
+
 

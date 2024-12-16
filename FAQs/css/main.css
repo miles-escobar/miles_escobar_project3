@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Modak", system-ui;
+}
+
+body {
+  background-color: #FCF4A3;
+}
+
+header {
+  background-color: #363737;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  display: block;
+  max-width: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: #363737;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 108px;
+  padding: 25.92px 38.88px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  background-color: white;
+}
+
+.nav a.home-hover:hover {
+  background-color: #0032A0;
+}
+
+.nav a.events-hover:hover {
+  background-color: #BF0D3E;
+}
+
+.nav a.faqs-hover:hover {
+  background-color: #FED141;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
+  margin-top: 0;
+}
+
+.container img {
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: none;
+  z-index: -1;
+}
+
+.festival,
+.over {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.festival h2,
+.over h2 {
+  color: white;
+  text-shadow: 2px 2px white;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+}
+
+.container p,
+.question p {
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+}
+
+.question {
+  margin-top: 20px;
+}
+
+.question h2 {
+  font-size: 24px;
+}
+
+footer {
+  background-color: #BF0D3E;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+}
+
+.footer p {
+  padding-top: 1%;
+}

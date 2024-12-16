@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Modak", system-ui;
+}
+
+body {
+  background-color: #FCF4A3;
+}
+
+header {
+  background-color: #363737;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  display: block;
+  max-width: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: #363737;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 108px;
+  padding: 25.92px 38.88px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  background-color: white;
+}
+
+.nav a.home-hover:hover {
+  background-color: #0032A0;
+}
+
+.nav a.events-hover:hover {
+  background-color: #BF0D3E;
+}
+
+.nav a.faqs-hover:hover {
+  background-color: #FED141;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
+  margin-top: 0;
+}
+
+.container img {
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: none;
+  z-index: -1;
+}
+
+.festival {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.festival h2 {
+  color: white;
+  text-shadow: 2px 2px white;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 60px;
+}
+
+.container p {
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+}
+
+.aboutus-container,
+.sponsor-container,
+.day1-container,
+.day2-container,
+.day3-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-top: 50px;
+  background-color: #0032A0;
+  border-radius: 13.5px;
+}
+
+.aboutus,
+.sponsors,
+.day1,
+.day2,
+.day3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.aboutus {
+  transform: translateX(70px);
+}
+
+.sponsors {
+  transform: translateX(30px);
+}
+
+.aboutus h2,
+.sponsors h2,
+.day1 h2,
+.day2 h2,
+.day3 h2 {
+  color: white;
+  text-shadow: none;
+  margin-bottom: 0.3em;
+}
+
+.aboutus p,
+.day1 p,
+.day2 p,
+.day3 p {
+  line-height: 2;
+  color: white;
+}
+
+.aboutus-img,
+.sponsor-img,
+.pacman-img,
+.booth-img,
+.bee-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+.aboutus-img img,
+.sponsor-img img,
+.pacman-img img,
+.booth-img img,
+.bee-img img {
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.aboutus-img img {
+  width: 50%;
+  height: auto;
+}
+
+.sponsor-img img {
+  width: 60%;
+  height: auto;
+}
+
+.pacman-img img {
+  width: 80%;
+  height: auto;
+}
+
+.booth-img img {
+  width: 75%;
+  height: auto;
+  transform: translateX(-10px);
+}
+
+.bee-img img {
+  width: 95%;
+  height: auto;
+  transform: translateX(-30px);
+}
+
+ul {
+  color: white;
+}
+
+.filipino,
+.youth,
+.festival-text {
+  color: white;
+  transition: color 0.5s;
+}
+
+.filipino {
+  text-shadow: 2px 2px #0032A0;
+}
+
+.youth {
+  text-shadow: 2px 2px #BF0D3E;
+}
+
+.festival-text {
+  text-shadow: 2px 2px #FED141;
+}
+
+.filipino:hover {
+  color: #0032A0;
+}
+
+.youth:hover {
+  color: #BF0D3E;
+}
+
+.festival-text:hover {
+  color: #FED141;
+}
+
+footer {
+  background-color: #BF0D3E;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+}
+
+.footer p {
+  padding-top: 1%;
+}
